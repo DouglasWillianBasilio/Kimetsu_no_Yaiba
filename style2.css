@@ -93,7 +93,7 @@ main {
     align-items: center;
 }
 
-/* TEXTOS PRINCIPAIS*/
+/* PRIMEIRA TEMPORADA*/
 
 .primary-text {
     width: 850px;
@@ -102,55 +102,33 @@ main {
     text-align: center;
 }
 
-.second-text {
-    margin-bottom: 7rem;
-    font-size: 2rem;
-    color: rgb(110, 108, 108);
-    text-transform: uppercase;
+.main-content .list {
+    list-style: none;
+    
 }
 
-/* BOTOES*/
-
-.btns {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.btns button {
-    width: 250px;
-    height: 60px;
-    cursor: pointer;
-    border: 1px solid white;
-    color: white;
-    text-transform: uppercase;
-    background-color: transparent;
-    font-weight: bold;
-    letter-spacing: 0.2rem;
-    border-radius: 20px;
-    position: relative;
-    transition: 1.5s;
-}
-
-
-.btns button:before {
-    content: ' ';
-    border-radius: 20px;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    width: 0px;
-    height: 60px;
-    background-color: rgba(177, 69, 26, 0.979);
-    z-index: -1;
-    transition: 1s;
-}
-
-.btns button:hover:before {
-   width: 100%;
-}
-
-.btns a {
+.main-content .list a{
+    
     text-decoration: none;
     color: white;
+    padding: 1.5rem;
+    transform: 2ms ease-in;
+    position: relative;
+    font-size: 2rem;
+    
+}
+
+.main-content .list a:before {
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 1px;
+    background-color: orange;
+    transition: all 1.5s ease;
+}
+
+.main-content .list a:hover:before {
+    width: 100%;
 }
