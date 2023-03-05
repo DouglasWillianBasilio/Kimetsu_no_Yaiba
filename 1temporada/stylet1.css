@@ -102,13 +102,14 @@ main {
     margin-bottom: 2rem;
     text-align: center;
 }
-/*botao*/
+
 .main-content .list {
     list-style: none;
-    height: 80vh; /* ALINHOU OS EPISODIOS!*/
+    
 }
 
 .main-content .list a{
+    
     text-decoration: none;
     color: white;
     padding: 1.5rem;
@@ -131,4 +132,14 @@ main {
 
 .main-content .list a:hover:before {
     width: 100%;
+}
+
+
+#um {
+    display: flex;
+    justify-content: center;
+}
+
+iframe{
+    margin: 70px;
 }
