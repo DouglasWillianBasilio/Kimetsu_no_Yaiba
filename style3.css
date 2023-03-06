@@ -253,6 +253,7 @@ aside {
     }
 }
 
+
 @media screen and (max-width: 580px) {
     h1.primary-text{
         font-size: 2.8rem;

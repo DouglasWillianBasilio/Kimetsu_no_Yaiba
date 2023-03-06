@@ -232,13 +232,13 @@ aside {
         color: white;
         font-size: 3.5rem;
     }
-    .btns button   {
+    btns button   {
         margin: -5rem;
         border: none;
         border-radius: none;
     }
 
-    .btns button {
+    btns button {
         width: 250px;
         height: 60px;
         cursor: pointer;
@@ -252,6 +252,7 @@ aside {
         transition: 0s;
     }
 }
+
 
 @media screen and (max-width: 580px) {
     h1.primary-text{
