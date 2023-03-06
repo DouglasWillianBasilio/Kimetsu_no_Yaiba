@@ -46,8 +46,14 @@ header {
 .logo {
     font-size: 1.8rem;
     letter-spacing: 0.4rem;
-    cursor: pointer;
+    
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 
 .menu-content .list-itens {
     display: flex;
@@ -154,6 +160,10 @@ main {
 .btns a {
     text-decoration: none;
     color: white;
+}
+
+aside {
+    display: none;
 }
 
 
