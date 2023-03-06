@@ -118,13 +118,13 @@ main {
 
 /* BOTOES*/
 
-.btns {
+#btns {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.btns button {
+#btns button {
     width: 250px;
     height: 60px;
     cursor: pointer;
@@ -140,7 +140,7 @@ main {
 }
 
 
-.btns button:before {
+#btns button:before {
     content: ' ';
     border-radius: 20px;
     bottom: 0;
@@ -153,11 +153,11 @@ main {
     transition: 1s;
 }
 
-.btns button:hover:before {
+#btns button:hover:before {
    width: 100%;
 }
 
-.btns a {
+#btns a {
     text-decoration: none;
     color: white;
 }

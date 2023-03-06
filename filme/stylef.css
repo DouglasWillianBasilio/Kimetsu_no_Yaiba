@@ -26,6 +26,11 @@ body {
     background-attachment: fixed;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 /*MENU - HEADER - NAV BAR*/
 
 header {
