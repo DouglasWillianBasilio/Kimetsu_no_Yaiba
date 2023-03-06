@@ -171,6 +171,8 @@ aside {
 
 @media screen and (max-width: 740px) {
 
+    
+
     h1.primary-text{
         display: flex;
         justify-content: center;
