@@ -348,3 +348,15 @@ aside {
     }
     
 }
+
+@media screen and (max-width: 390px) {
+   
+
+    
+    .logo {
+        
+        overflow: hidden;
+    }
+
+    
+}
