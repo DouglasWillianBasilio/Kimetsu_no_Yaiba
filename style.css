@@ -171,7 +171,14 @@ aside {
 
 @media screen and (max-width: 740px) {
 
-    
+    #barra-menu .links {
+        font-size: 10rem;
+    }
+
+    main {
+        overflow: hidden;
+        
+    }
 
     h1.primary-text{
         display: flex;
@@ -229,7 +236,7 @@ aside {
     #barra-menu ul li a {
         color: #011927;
         text-decoration: none;
-        font-size: 1rem;
+        font-size: 2.2rem;
         width: 100%;
     }
 
@@ -245,11 +252,12 @@ aside {
         justify-content: center;
         gap: 15px; /* separa um icone do outro */
         overflow: hidden;
+        
     }
 
     .c-icon span {
         color: white;
-        font-size: 1.5rem;
+        font-size: 3.5rem;
     }
     .btns button   {
         margin: -5rem;

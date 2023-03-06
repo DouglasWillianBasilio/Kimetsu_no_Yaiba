@@ -26,6 +26,11 @@ body {
     background-attachment: fixed;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 /*MENU - HEADER - NAV BAR*/
 
 header {
@@ -134,9 +139,22 @@ main {
     width: 100%;
 }
 
+aside {
+    display: none;
+}
+
 /*RESPONSIVIDADE*/
 
 @media screen and (max-width: 740px) {
+
+    #barra-menu .links {
+        font-size: 10rem;
+    }
+
+    main {
+        overflow-x: hidden;
+        
+    }
 
     h1.primary-text{
         display: flex;
@@ -148,9 +166,7 @@ main {
     .menu-content .list-itens{
         display: none;
     }
-    ul{
-        display: none;
-    }
+    
 
     .links {
         display: block;
@@ -194,7 +210,7 @@ main {
     #barra-menu ul li a {
         color: #011927;
         text-decoration: none;
-        font-size: 1rem;
+        font-size: 2.2rem;
         width: 100%;
     }
 
@@ -214,7 +230,7 @@ main {
 
     .c-icon span {
         color: white;
-        font-size: 1.5rem;
+        font-size: 3.5rem;
     }
     .btns button   {
         margin: -5rem;

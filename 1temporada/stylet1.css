@@ -143,3 +143,208 @@ main {
 iframe{
     margin: 70px;
 }
+aside {
+    display: none;
+}
+
+/*RESPONSIVIDADE*/
+
+@media screen and (max-width: 740px) {
+
+    #barra-menu .links {
+        font-size: 10rem;
+    }
+
+    iframe {
+        width: 1000px;
+        height: 500px;
+    }
+
+    main {
+        overflow: hidden;
+        
+    }
+
+    h1.primary-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3.0rem;
+    }
+
+    .menu-content .list-itens{
+        display: none;
+    }
+    ul{
+        display: none;
+    }
+
+    .links {
+        display: block;
+        list-style: none;
+    }
+
+    .logo {
+        margin-right: 15rem;
+    }
+
+    aside {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        overflow: hidden;
+    }
+
+    #barra-menu{
+        background: linear-gradient(rgba(173, 171, 171, 0.8), rgb(139, 138, 138));
+        width: 0px;
+        height: 100vh;
+        transition: 0.3s all;
+    }
+
+    .icon-menu ion-icon {
+        width: 45px;
+        height: 45px;
+        margin-right: 1.5rem; /* afasta o icone para a esquerda */
+        margin-top: 2rem;
+        color: white
+    }
+
+    #barra-menu ul {
+        align-items: center;
+        text-align: center;
+        padding: 5rem;
+        line-height: 5rem;
+    }
+
+    #barra-menu ul li a {
+        color: #011927;
+        text-decoration: none;
+        font-size: 2.2rem;
+        width: 100%;
+    }
+
+    #barra-menu ul li a:hover{
+        padding: 8px;
+        border-radius: 15px;
+        background-color: #5bacdf;
+    }
+
+    .c-icon {
+        margin-top: 50%;
+        display: flex;
+        justify-content: center;
+        gap: 15px; /* separa um icone do outro */
+        overflow: hidden;
+    }
+
+    .c-icon span {
+        color: white;
+        font-size: 3.5rem;
+    }
+    .btns button   {
+        margin: -5rem;
+        border: none;
+        border-radius: none;
+    }
+
+    .btns button {
+        width: 250px;
+        height: 60px;
+        cursor: pointer;
+        color: white;
+        text-transform: uppercase;
+        background-color: transparent;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        border-radius: 20px;
+        position: relative;
+        transition: 0s;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    iframe {
+        margin-top: 25rem;
+        width: 800px;
+        height: 400px;
+    }
+
+    h1.primary-text{
+        font-size: 2.8rem;
+    }
+    
+    .logo {
+        font-size: 1.7rem;
+        margin-right: 35rem;
+        margin-top: 1.5rem;
+    }
+
+    .btns button   {
+        margin: -5rem;
+        border: none;
+        border-radius: none;
+    }
+
+    .btns button {
+        width: 250px;
+        height: 60px;
+        cursor: pointer;
+        color: white;
+        text-transform: uppercase;
+        background-color: transparent;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        border-radius: 20px;
+        position: relative;
+        transition: 0s;
+    }
+    
+}
+
+@media screen and (max-width: 440px) {
+
+    .menu-content .logo{
+        font-size: 1.4rem;
+    }
+
+    iframe {
+        margin-top: 25rem;
+        width: 800px;
+        height: 300px;
+    }
+
+
+    h1.primary-text{
+        font-size: 2.2rem;
+    }
+
+    .logo {
+        font-size: 1rem;
+        margin-right: 35rem;
+        margin-top: 1.5rem;
+    }
+
+    .btns button   {
+        margin: -7rem;
+        border: none;
+        border-radius: none;
+    }
+
+    .btns button {
+        width: 250px;
+        height: 60px;
+        cursor: pointer;
+        color: white;
+        text-transform: uppercase;
+        background-color: transparent;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        border-radius: 20px;
+        position: relative;
+        transition: 0s;
+    }
+    
+}
